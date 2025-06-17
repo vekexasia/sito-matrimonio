@@ -96,8 +96,8 @@ const copyHashtag = async () => {
           </div>
 
           <div class="info-card">
-            <h3>📱 Cerimonia Senza Dispositivi</h3>
-            <p>Vi chiediamo gentilmente di tenere telefoni e fotocamere lontani durante la cerimonia.</p>
+            <h3>📱 Dispositivi Durante la Cerimonia</h3>
+            <p>Siete liberi di scattare foto durante la cerimonia, ma vi chiediamo gentilmente di evitare giochi o altre attività sui telefoni.</p>
             <p>Il nostro fotografo professionale catturerà ogni momento. Vi preghiamo di essere presenti e godervi l'esperienza con noi!</p>
           </div>
 
@@ -156,6 +156,12 @@ const copyHashtag = async () => {
             <h3>🏨 Alloggio</h3>
             <p>Per gli ospiti fuori città, abbiamo compilato una lista di hotel raccomandati nella nostra <router-link to="/venue">pagina Location</router-link>.</p>
             <p>Vi preghiamo di prenotare presto poiché la disponibilità potrebbe essere limitata durante la stagione dei matrimoni.</p>
+          </div>
+
+          <div class="note-item">
+            <h3>🎪 Intrattenimento per Bambini</h3>
+            <p>Abbiamo organizzato un mago e servizi di babysitting per i più piccoli durante il ricevimento.</p>
+            <p>Attività su misura per bambini saranno disponibili per garantire che anche i nostri ospiti più giovani si divertano!</p>
           </div>
 
           <div class="note-item">

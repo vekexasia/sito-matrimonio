@@ -33,7 +33,7 @@ const handleImageError = (event: Event) => {
             </div>
             
             <div class="venue-image">
-              <img src="/villa-braida.jpg" 
+              <img src="/villa-braida-real.jpg" 
                    alt="Villa Braida - Elegant wedding venue with beautiful gardens and architecture" 
                    @error="handleImageError" />
             </div>

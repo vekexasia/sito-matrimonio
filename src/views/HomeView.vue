@@ -56,7 +56,7 @@
 }
 
 .hero {
-  background-image: url('/header-image.jpg');
+  background-image: url('/new-header-image.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
