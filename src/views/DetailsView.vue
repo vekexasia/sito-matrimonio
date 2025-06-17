@@ -54,7 +54,7 @@ const copyHashtag = async () => {
           </div>
           
           <div class="timeline-item">
-            <div class="time">23:00</div>
+            <div class="time">21:00</div>
             <div class="event">
               <h3>Balli e Festeggiamenti</h3>
               <p>Balliamo tutta la notte! La festa continua fino a tardi.</p>
@@ -62,7 +62,15 @@ const copyHashtag = async () => {
           </div>
           
           <div class="timeline-item">
-            <div class="time">02:00</div>
+            <div class="time">21:30</div>
+            <div class="event">
+              <h3>Taglio Torta</h3>
+              <p>Il momento più dolce della serata! Taglio della torta nuziale.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="time">00:00</div>
             <div class="event">
               <h3>Fine del Ricevimento</h3>
               <p>Grazie per aver festeggiato con noi! Buon viaggio di ritorno.</p>
@@ -118,10 +126,8 @@ const copyHashtag = async () => {
         <div class="contact-grid">
           <div class="contact-card">
             <h3>Sposi</h3>
-            <p><strong>Andrea:</strong> <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
-            <p><strong>Telefono:</strong> 3314646641</p>
-            <p><strong>Silvia:</strong> [Email da fornire]</p>
-            <p><strong>Telefono:</strong> 3403214938</p>
+            <p><strong>Andrea:</strong> 3314646641</p>
+            <p><strong>Silvia:</strong> 3403214938</p>
           </div>
 
           <div class="contact-card">
