@@ -1,0 +1,119 @@
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  <div class="app">
+    <header class="header">
+      <div class="container">
+        <h1 class="title">Andrea & [Partner's Name]</h1>
+        <p class="subtitle">We're Getting Married!</p>
+        
+        <nav class="nav">
+          <RouterLink to="/" class="nav-link">Home</RouterLink>
+          <RouterLink to="/rsvp" class="nav-link">RSVP</RouterLink>
+          <RouterLink to="/venue" class="nav-link">Venue & Directions</RouterLink>
+          <RouterLink to="/gifts" class="nav-link">Gift List</RouterLink>
+          <RouterLink to="/details" class="nav-link">Details</RouterLink>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <RouterView />
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Andrea & [Partner's Name] Wedding</p>
+      </div>
+    </footer>
+  </div>
+</template>
+
+<style scoped>
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.9;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.router-link-active {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .nav {
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+</style>
