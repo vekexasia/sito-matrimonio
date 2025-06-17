@@ -45,7 +45,7 @@
 
               <div class="payment-method">
                 <h3>PayPal</h3>
-                <p>Inviare a: <a href="mailto:andrea@baccega.io">andrea@baccega.io</a></p>
+                <p>Inviare a: <a href="mailto:andrea@baccega.io?subject=Regalo%20Matrimonio&body=Ciao%20Andrea%20e%20Silvia%2C%0A%0AInvio%20un%20regalo%20per%20il%20vostro%20matrimonio.%0A%0ACordiali%20saluti">andrea@baccega.io</a></p>
                 <p>Vi preghiamo di includere "Regalo Matrimonio" nel messaggio</p>
               </div>
 
@@ -133,8 +133,8 @@
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 

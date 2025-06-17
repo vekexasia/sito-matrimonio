@@ -54,8 +54,8 @@
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
