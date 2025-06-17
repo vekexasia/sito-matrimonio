@@ -6,18 +6,18 @@
     <div class="container">
       <section class="rsvp-header">
         <h1>RSVP</h1>
-        <p>Please let us know if you can join us for our special day!</p>
+        <p>Fateci sapere se potete unirvi a noi per il nostro giorno speciale!</p>
       </section>
 
       <section class="rsvp-form">
         <div class="form-container">
-          <h2>Respond by [Date]</h2>
+          <h2>Rispondete entro il 15 Settembre 2025</h2>
           
           <div class="google-form-embed">
             <p class="form-note">
-              Please fill out our RSVP form below. If the form doesn't load, you can 
+              Vi preghiamo di compilare il modulo RSVP qui sotto. Se il modulo non si carica, potete 
               <a href="https://forms.google.com/[YOUR_FORM_ID]" target="_blank" rel="noopener">
-                click here to open it in a new window
+                cliccare qui per aprirlo in una nuova finestra
               </a>.
             </p>
             
@@ -28,14 +28,14 @@
               frameborder="0" 
               marginheight="0" 
               marginwidth="0"
-              title="Wedding RSVP Form">
-              Loading…
+              title="Modulo RSVP Matrimonio">
+              Caricamento…
             </iframe>
           </div>
 
           <div class="contact-info">
-            <h3>Questions?</h3>
-            <p>If you have any questions or need to make changes to your RSVP, please contact us:</p>
+            <h3>Domande?</h3>
+            <p>Se avete domande o dovete modificare la vostra risposta RSVP, contattateci:</p>
             <p>
               <strong>Email:</strong> 
               <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a>
@@ -50,11 +50,12 @@
 <style scoped>
 .rsvp {
   padding: 2rem 0;
+  width: 100%;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0 1rem;
 }
 

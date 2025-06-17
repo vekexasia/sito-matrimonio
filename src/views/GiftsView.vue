@@ -5,121 +5,121 @@
   <div class="gifts">
     <div class="container">
       <section class="gifts-header">
-        <h1>Gift List & Registry</h1>
-        <p>Your presence is the greatest gift, but if you'd like to help us start our new life together...</p>
+        <h1>Lista Regali e Registro</h1>
+        <p>La vostra presenza è il regalo più grande, ma se volete aiutarci a iniziare la nostra nuova vita insieme...</p>
       </section>
 
       <section class="gift-options">
         <div class="gift-cards">
           <div class="gift-card">
-            <h2>💝 Wedding Registry</h2>
-            <p>We've created a registry with items that will help us build our home together.</p>
+            <h2>💝 Registro Matrimonio</h2>
+            <p>Abbiamo creato un registro con articoli che ci aiuteranno a costruire la nostra casa insieme.</p>
             <div class="registry-links">
               <a href="#" class="registry-link" target="_blank" rel="noopener">
-                View our Amazon Registry
+                Visualizza il nostro Registro Amazon
               </a>
               <a href="#" class="registry-link" target="_blank" rel="noopener">
-                View our John Lewis Registry
+                Visualizza il nostro Registro John Lewis
               </a>
             </div>
             <p class="note">
-              <em>Note: Registry links will be updated closer to the wedding date</em>
+              <em>Nota: I link del registro saranno aggiornati più vicino alla data del matrimonio</em>
             </p>
           </div>
 
           <div class="gift-card">
-            <h2>💰 Monetary Gifts</h2>
-            <p>If you prefer to give a monetary gift, we would be incredibly grateful. You can contribute via:</p>
+            <h2>💰 Regali in Denaro</h2>
+            <p>Se preferite fare un regalo in denaro, ne saremmo incredibilmente grati. Potete contribuire tramite:</p>
             
             <div class="payment-methods">
               <div class="payment-method">
-                <h3>Bank Transfer (Preferred)</h3>
+                <h3>Bonifico Bancario (Preferito)</h3>
                 <div class="bank-details">
-                  <p><strong>Account Name:</strong> Andrea Baccega</p>
-                  <p><strong>IBAN:</strong> [IBAN to be provided]</p>
-                  <p><strong>BIC/SWIFT:</strong> [BIC to be provided]</p>
-                  <p><strong>Bank:</strong> [Bank name to be provided]</p>
-                  <p><strong>Reference:</strong> Wedding Gift - [Your Name]</p>
+                  <p><strong>Intestatario:</strong> Andrea Baccega</p>
+                  <p><strong>IBAN:</strong> [IBAN da fornire]</p>
+                  <p><strong>BIC/SWIFT:</strong> [BIC da fornire]</p>
+                  <p><strong>Banca:</strong> [Nome banca da fornire]</p>
+                  <p><strong>Causale:</strong> Regalo Matrimonio - [Il Vostro Nome]</p>
                 </div>
               </div>
 
               <div class="payment-method">
                 <h3>PayPal</h3>
-                <p>Send to: <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
-                <p>Please include "Wedding Gift" in the message</p>
+                <p>Inviare a: <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
+                <p>Vi preghiamo di includere "Regalo Matrimonio" nel messaggio</p>
               </div>
 
               <div class="payment-method">
-                <h3>Cash</h3>
-                <p>Cash gifts can be given on the wedding day. There will be a gift box at the reception.</p>
+                <h3>Contanti</h3>
+                <p>I regali in contanti possono essere consegnati il giorno del matrimonio. Ci sarà una scatola per i regali al ricevimento.</p>
               </div>
             </div>
           </div>
 
           <div class="gift-card">
-            <h2>🌍 Honeymoon Fund</h2>
-            <p>Help us create unforgettable memories on our honeymoon!</p>
+            <h2>🌍 Fondo Luna di Miele</h2>
+            <p>Aiutateci a creare ricordi indimenticabili durante la nostra luna di miele!</p>
             <div class="honeymoon-options">
               <div class="honeymoon-item">
-                <h4>Romantic Dinner for Two</h4>
-                <p>€100 - Help us enjoy a special dinner during our honeymoon</p>
+                <h4>Cena Romantica per Due</h4>
+                <p>€100 - Aiutateci a goderci una cena speciale durante la luna di miele</p>
               </div>
               <div class="honeymoon-item">
-                <h4>Adventure Excursion</h4>
-                <p>€200 - Fund a day trip or activity</p>
+                <h4>Escursione Avventurosa</h4>
+                <p>€200 - Finanziate una gita di un giorno o un'attività</p>
               </div>
               <div class="honeymoon-item">
-                <h4>Spa Day</h4>
-                <p>€150 - Help us relax and unwind</p>
+                <h4>Giornata Spa</h4>
+                <p>€150 - Aiutateci a rilassarci e distenderci</p>
               </div>
               <div class="honeymoon-item">
-                <h4>Flight Upgrade</h4>
-                <p>€300 - Make our journey more comfortable</p>
+                <h4>Upgrade Volo</h4>
+                <p>€300 - Rendete il nostro viaggio più confortevole</p>
               </div>
             </div>
             <p class="honeymoon-note">
-              Use the same payment methods as above and specify "Honeymoon Fund" in the reference.
+              Utilizzate gli stessi metodi di pagamento sopra indicati e specificate "Fondo Luna di Miele" nella causale.
             </p>
           </div>
 
           <div class="gift-card">
-            <h2>💌 Personal Touch</h2>
-            <p>The most meaningful gifts come from the heart:</p>
+            <h2>💌 Tocco Personale</h2>
+            <p>I regali più significativi vengono dal cuore:</p>
             <ul class="personal-gifts">
-              <li>Handwritten letters or cards with your favorite memories of us</li>
-              <li>Photo albums or scrapbooks</li>
-              <li>Family recipes or cooking tips</li>
-              <li>Books that have special meaning to you</li>
-              <li>Homemade items or crafts</li>
+              <li>Lettere scritte a mano o biglietti con i vostri ricordi preferiti di noi</li>
+              <li>Album fotografici o scrapbook</li>
+              <li>Ricette di famiglia o consigli di cucina</li>
+              <li>Libri che hanno un significato speciale per voi</li>
+              <li>Oggetti fatti in casa o artigianato</li>
             </ul>
           </div>
         </div>
       </section>
 
       <section class="gift-delivery">
-        <h2>Gift Delivery Information</h2>
+        <h2>Informazioni Consegna Regali</h2>
         <div class="delivery-info">
           <div class="delivery-option">
-            <h3>Shipping Address</h3>
+            <h3>Indirizzo di Spedizione</h3>
             <p>
               Andrea Baccega<br>
-              [Address to be provided]<br>
-              [City, Postal Code]<br>
-              Italy
+              [Indirizzo da fornire]<br>
+              [Città, Codice Postale]<br>
+              Italia
             </p>
           </div>
           <div class="delivery-option">
-            <h3>Wedding Day</h3>
-            <p>Gifts can also be brought to the wedding venue. There will be a designated gift table at the reception.</p>
+            <h3>Giorno del Matrimonio</h3>
+            <p>I regali possono anche essere portati alla location del matrimonio. Ci sarà un tavolo dedicato ai regali al ricevimento.</p>
           </div>
         </div>
       </section>
 
       <section class="thank-you">
-        <h2>Thank You</h2>
+        <h2>Grazie</h2>
         <p>
-          Your love, support, and presence mean the world to us. Whether you choose to give a gift or simply 
-          celebrate with us, we are grateful to have you in our lives. Thank you for being part of our special day!
+          Il vostro amore, supporto e presenza significano tutto per noi. Che scegliate di fare un regalo o semplicemente 
+          di celebrare con noi, siamo grati di avervi nelle nostre vite. Grazie per essere parte del nostro giorno speciale!
         </p>
       </section>
     </div>
@@ -129,11 +129,12 @@
 <style scoped>
 .gifts {
   padding: 2rem 0;
+  width: 100%;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0 1rem;
 }
 

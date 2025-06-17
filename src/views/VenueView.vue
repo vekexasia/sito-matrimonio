@@ -9,8 +9,8 @@ const handleImageError = (event: Event) => {
   <div class="venue">
     <div class="container">
       <section class="venue-header">
-        <h1>Venue & Directions</h1>
-        <p>Join us at the beautiful Villa Braida in Mogliano Veneto</p>
+        <h1>Location e Indicazioni</h1>
+        <p>Unitevi a noi nella splendida Villa Braida a Mogliano Veneto</p>
       </section>
 
       <section class="venue-info">
@@ -18,12 +18,12 @@ const handleImageError = (event: Event) => {
           <div class="venue-card">
             <h2>Villa Braida</h2>
             <div class="address">
-              <h3>Address:</h3>
+              <h3>Indirizzo:</h3>
               <p>
                 Villa Braida<br>
                 Via Terraglio, 10<br>
                 31021 Mogliano Veneto TV<br>
-                Italy
+                Italia
               </p>
             </div>
             
@@ -35,34 +35,34 @@ const handleImageError = (event: Event) => {
           </div>
 
           <div class="directions-card">
-            <h2>Getting There</h2>
+            <h2>Come Arrivare</h2>
             
             <div class="transport-options">
               <div class="transport-option">
-                <h3>🚗 By Car</h3>
-                <p>Villa Braida is easily accessible by car via the A57 highway. Parking is available on-site.</p>
-                <p><strong>From Venice:</strong> Take A57 towards Mestre, then follow signs to Mogliano Veneto (approximately 20 minutes)</p>
-                <p><strong>From Treviso:</strong> Take SS13 towards Venice, exit at Mogliano Veneto (approximately 15 minutes)</p>
+                <h3>🚗 In Auto</h3>
+                <p>Villa Braida è facilmente raggiungibile in auto tramite l'autostrada A57. Parcheggio disponibile in loco.</p>
+                <p><strong>Da Venezia:</strong> Prendere A57 verso Mestre, poi seguire le indicazioni per Mogliano Veneto (circa 20 minuti)</p>
+                <p><strong>Da Treviso:</strong> Prendere SS13 verso Venezia, uscita Mogliano Veneto (circa 15 minuti)</p>
               </div>
 
               <div class="transport-option">
-                <h3>🚆 By Train</h3>
-                <p>Take the train to Mogliano Veneto station, then a short taxi ride (5 minutes) to the venue.</p>
-                <p><strong>From Venice:</strong> Regional trains run frequently (20-25 minutes)</p>
-                <p><strong>From Treviso:</strong> Regional trains available (10-15 minutes)</p>
+                <h3>🚆 In Treno</h3>
+                <p>Prendere il treno per la stazione di Mogliano Veneto, poi un breve tragitto in taxi (5 minuti) fino alla location.</p>
+                <p><strong>Da Venezia:</strong> Treni regionali frequenti (20-25 minuti)</p>
+                <p><strong>Da Treviso:</strong> Treni regionali disponibili (10-15 minuti)</p>
               </div>
 
               <div class="transport-option">
-                <h3>✈️ By Plane</h3>
-                <p><strong>Venice Marco Polo Airport:</strong> 25 minutes by car or taxi</p>
-                <p><strong>Treviso Airport:</strong> 20 minutes by car or taxi</p>
+                <h3>✈️ In Aereo</h3>
+                <p><strong>Aeroporto Marco Polo di Venezia:</strong> 25 minuti in auto o taxi</p>
+                <p><strong>Aeroporto di Treviso:</strong> 20 minuti in auto o taxi</p>
               </div>
             </div>
           </div>
         </div>
 
         <div class="map-section">
-          <h2>Location Map</h2>
+          <h2>Mappa della Location</h2>
           <div class="map-container">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.8!2d12.2167!3d45.5667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDM0JzAwLjEiTiAxMsKwMTMnMDAuMSJF!5e0!3m2!1sen!2sit!4v1234567890"
@@ -72,33 +72,33 @@ const handleImageError = (event: Event) => {
               allowfullscreen 
               loading="lazy" 
               referrerpolicy="no-referrer-when-downgrade"
-              title="Villa Braida Location Map">
+              title="Mappa Villa Braida">
             </iframe>
           </div>
           <p class="map-note">
             <a href="https://goo.gl/maps/[ACTUAL_MAPS_LINK]" target="_blank" rel="noopener">
-              Open in Google Maps
+              Apri in Google Maps
             </a>
           </p>
         </div>
 
         <div class="accommodation">
-          <h2>Accommodation Suggestions</h2>
+          <h2>Suggerimenti per l'Alloggio</h2>
           <div class="hotels-grid">
             <div class="hotel-card">
               <h3>Hotel Villa Condulmer</h3>
-              <p>Luxury hotel in a historic villa, 10 minutes from venue</p>
-              <p><strong>Distance:</strong> 5 km from Villa Braida</p>
+              <p>Hotel di lusso in una villa storica, a 10 minuti dalla location</p>
+              <p><strong>Distanza:</strong> 5 km da Villa Braida</p>
             </div>
             <div class="hotel-card">
               <h3>Hotel Villa Pace Park</h3>
-              <p>Modern hotel with spa facilities</p>
-              <p><strong>Distance:</strong> 8 km from Villa Braida</p>
+              <p>Hotel moderno con servizi spa</p>
+              <p><strong>Distanza:</strong> 8 km da Villa Braida</p>
             </div>
             <div class="hotel-card">
-              <h3>Venice Hotels</h3>
-              <p>Stay in Venice and enjoy the city before/after the wedding</p>
-              <p><strong>Distance:</strong> 20-25 minutes by car/train</p>
+              <h3>Hotel a Venezia</h3>
+              <p>Soggiornate a Venezia e godetevi la città prima/dopo il matrimonio</p>
+              <p><strong>Distanza:</strong> 20-25 minuti in auto/treno</p>
             </div>
           </div>
         </div>
@@ -110,11 +110,12 @@ const handleImageError = (event: Event) => {
 <style scoped>
 .venue {
   padding: 2rem 0;
+  width: 100%;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0 1rem;
 }
 

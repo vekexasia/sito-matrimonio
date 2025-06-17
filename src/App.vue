@@ -6,15 +6,15 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="app">
     <header class="header">
       <div class="container">
-        <h1 class="title">Andrea & [Partner's Name]</h1>
-        <p class="subtitle">We're Getting Married!</p>
+        <h1 class="title">Andrea & Silvia</h1>
+        <p class="subtitle">Ci Sposiamo!</p>
         
         <nav class="nav">
           <RouterLink to="/" class="nav-link">Home</RouterLink>
           <RouterLink to="/rsvp" class="nav-link">RSVP</RouterLink>
-          <RouterLink to="/venue" class="nav-link">Venue & Directions</RouterLink>
-          <RouterLink to="/gifts" class="nav-link">Gift List</RouterLink>
-          <RouterLink to="/details" class="nav-link">Details</RouterLink>
+          <RouterLink to="/venue" class="nav-link">Location e Indicazioni</RouterLink>
+          <RouterLink to="/gifts" class="nav-link">Lista Regali</RouterLink>
+          <RouterLink to="/details" class="nav-link">Dettagli</RouterLink>
         </nav>
       </div>
     </header>
@@ -25,7 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2025 Andrea & [Partner's Name] Wedding</p>
+        <p>&copy; 2025 Matrimonio Andrea & Silvia</p>
       </div>
     </footer>
   </div>
@@ -46,8 +46,8 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0 1rem;
 }
 
@@ -88,7 +88,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
 .main {
   flex: 1;
-  padding: 2rem 0;
+  padding: 0;
+  width: 100%;
 }
 
 .footer {

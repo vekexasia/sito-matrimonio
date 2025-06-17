@@ -5,151 +5,151 @@
   <div class="details">
     <div class="container">
       <section class="details-header">
-        <h1>Wedding Details</h1>
-        <p>Everything you need to know about our special day</p>
+        <h1>Dettagli Matrimonio</h1>
+        <p>Tutto quello che dovete sapere sul nostro giorno speciale</p>
       </section>
 
       <section class="timeline">
-        <h2>Wedding Day Timeline</h2>
+        <h2>Programma del Giorno</h2>
         <div class="timeline-container">
           <div class="timeline-item">
-            <div class="time">2:00 PM</div>
+            <div class="time">14:00</div>
             <div class="event">
-              <h3>Guest Arrival</h3>
-              <p>Please arrive at Villa Braida. Welcome drinks will be served in the garden.</p>
+              <h3>Arrivo Ospiti</h3>
+              <p>Vi preghiamo di arrivare a Villa Braida. Drink di benvenuto saranno serviti in giardino.</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="time">2:30 PM</div>
+            <div class="time">14:30</div>
             <div class="event">
-              <h3>Wedding Ceremony</h3>
-              <p>The ceremony will take place in the villa's beautiful garden pavilion.</p>
+              <h3>Cerimonia Matrimoniale</h3>
+              <p>La cerimonia si svolgerà nel bellissimo padiglione del giardino della villa.</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="time">3:30 PM</div>
+            <div class="time">15:30</div>
             <div class="event">
-              <h3>Cocktail Hour</h3>
-              <p>Celebrate with us! Aperitivo and canapés will be served on the terrace.</p>
+              <h3>Aperitivo</h3>
+              <p>Celebrate con noi! Aperitivo e stuzzichini saranno serviti sulla terrazza.</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="time">5:00 PM</div>
+            <div class="time">17:00</div>
             <div class="event">
-              <h3>Wedding Reception</h3>
-              <p>Dinner will be served in the villa's elegant dining hall.</p>
+              <h3>Ricevimento</h3>
+              <p>La cena sarà servita nell'elegante sala da pranzo della villa.</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="time">9:00 PM</div>
+            <div class="time">21:00</div>
             <div class="event">
-              <h3>Dancing & Celebration</h3>
-              <p>Let's dance the night away! The party continues until late.</p>
+              <h3>Balli e Festeggiamenti</h3>
+              <p>Balliamo tutta la notte! La festa continua fino a tardi.</p>
             </div>
           </div>
           
           <div class="timeline-item">
-            <div class="time">12:00 AM</div>
+            <div class="time">00:00</div>
             <div class="event">
-              <h3>End of Reception</h3>
-              <p>Thank you for celebrating with us! Safe travels home.</p>
+              <h3>Fine del Ricevimento</h3>
+              <p>Grazie per aver festeggiato con noi! Buon viaggio di ritorno.</p>
             </div>
           </div>
         </div>
       </section>
 
       <section class="important-info">
-        <h2>Important Information</h2>
+        <h2>Informazioni Importanti</h2>
         <div class="info-grid">
           <div class="info-card">
             <h3>👗 Dress Code</h3>
-            <p><strong>Formal/Cocktail Attire</strong></p>
-            <p>We suggest elegant attire. Ladies: cocktail dresses or formal wear. Gentlemen: suits or dress shirts with dress pants.</p>
-            <p><em>Please avoid white, ivory, or cream colors (reserved for the bride).</em></p>
+            <p><strong>Abbigliamento Elegante/Cocktail</strong></p>
+            <p>Suggeriamo abbigliamento elegante. Signore: abiti da cocktail o abbigliamento formale. Signori: completi o camicie eleganti con pantaloni formali.</p>
+            <p><em>Vi preghiamo di evitare colori bianchi, avorio o panna (riservati alla sposa).</em></p>
           </div>
 
           <div class="info-card">
-            <h3>🌤️ Weather & Season</h3>
-            <p>The wedding will be held in <strong>[Season]</strong>. Expected temperature: <strong>[Temperature range]</strong></p>
-            <p>The ceremony will be outdoors, so please dress accordingly. We'll have indoor backup plans if needed.</p>
+            <h3>🌤️ Tempo e Stagione</h3>
+            <p>Il matrimonio si terrà in <strong>Settembre</strong>. Temperatura prevista: <strong>18-25°C</strong></p>
+            <p>La cerimonia sarà all'aperto, quindi vi preghiamo di vestirvi di conseguenza. Abbiamo piani di riserva al coperto se necessario.</p>
           </div>
 
           <div class="info-card">
-            <h3>📱 Unplugged Ceremony</h3>
-            <p>We kindly ask that you keep phones and cameras away during the ceremony.</p>
-            <p>Our professional photographer will capture every moment. Please be present and enjoy the experience with us!</p>
+            <h3>📱 Cerimonia Senza Dispositivi</h3>
+            <p>Vi chiediamo gentilmente di tenere telefoni e fotocamere lontani durante la cerimonia.</p>
+            <p>Il nostro fotografo professionale catturerà ogni momento. Vi preghiamo di essere presenti e godervi l'esperienza con noi!</p>
           </div>
 
           <div class="info-card">
-            <h3>🍽️ Dietary Requirements</h3>
-            <p>Please let us know about any dietary restrictions or allergies when you RSVP.</p>
-            <p>We'll work with our caterers to accommodate vegetarian, vegan, gluten-free, and other dietary needs.</p>
+            <h3>🍽️ Esigenze Alimentari</h3>
+            <p>Vi preghiamo di farci sapere eventuali restrizioni alimentari o allergie quando confermate la presenza.</p>
+            <p>Lavoreremo con i nostri catering per soddisfare esigenze vegetariane, vegane, senza glutine e altre necessità alimentari.</p>
           </div>
 
           <div class="info-card">
-            <h3>🚗 Parking</h3>
-            <p>Free parking is available on-site at Villa Braida.</p>
-            <p>If you're staying nearby, consider walking or taking a taxi to enjoy the evening fully!</p>
+            <h3>🚗 Parcheggio</h3>
+            <p>Parcheggio gratuito disponibile presso Villa Braida.</p>
+            <p>Se alloggiate nelle vicinanze, considerate di camminare o prendere un taxi per godervi appieno la serata!</p>
           </div>
 
           <div class="info-card">
-            <h3>🎁 Gift Table</h3>
-            <p>There will be a designated gift table at the reception entrance.</p>
-            <p>Cards and small gifts can be placed there. For larger items, please see our <router-link to="/gifts">Gift List page</router-link>.</p>
+            <h3>🎁 Tavolo Regali</h3>
+            <p>Ci sarà un tavolo dedicato ai regali all'ingresso del ricevimento.</p>
+            <p>Biglietti e piccoli regali possono essere posizionati lì. Per articoli più grandi, consultate la nostra <router-link to="/gifts">pagina Lista Regali</router-link>.</p>
           </div>
         </div>
       </section>
 
       <section class="contact-emergency">
-        <h2>Contact Information</h2>
+        <h2>Informazioni di Contatto</h2>
         <div class="contact-grid">
           <div class="contact-card">
-            <h3>Wedding Couple</h3>
+            <h3>Sposi</h3>
             <p><strong>Andrea:</strong> <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
-            <p><strong>Phone:</strong> [Phone number to be provided]</p>
+            <p><strong>Telefono:</strong> [Numero di telefono da fornire]</p>
           </div>
 
           <div class="contact-card">
-            <h3>Wedding Day Emergency</h3>
-            <p><strong>Wedding Coordinator:</strong> [Name to be provided]</p>
-            <p><strong>Phone:</strong> [Emergency contact to be provided]</p>
+            <h3>Emergenze Giorno del Matrimonio</h3>
+            <p><strong>Coordinatore Matrimonio:</strong> [Nome da fornire]</p>
+            <p><strong>Telefono:</strong> [Contatto di emergenza da fornire]</p>
           </div>
 
           <div class="contact-card">
             <h3>Villa Braida</h3>
-            <p><strong>Address:</strong> Via Terraglio, 10, 31021 Mogliano Veneto TV</p>
-            <p><strong>Phone:</strong> [Venue contact to be provided]</p>
+            <p><strong>Indirizzo:</strong> Via Terraglio, 10, 31021 Mogliano Veneto TV</p>
+            <p><strong>Telefono:</strong> [Contatto location da fornire]</p>
           </div>
         </div>
       </section>
 
       <section class="special-notes">
-        <h2>Special Notes</h2>
+        <h2>Note Speciali</h2>
         <div class="notes-container">
           <div class="note-item">
-            <h3>🎵 Music Requests</h3>
-            <p>Have a song that always makes you think of us? Let us know! We'd love to include meaningful music in our celebration.</p>
+            <h3>🎵 Richieste Musicali</h3>
+            <p>Avete una canzone che vi fa sempre pensare a noi? Fatecelo sapere! Ci piacerebbe includere musica significativa nella nostra celebrazione.</p>
           </div>
 
           <div class="note-item">
-            <h3>📸 Photo Sharing</h3>
-            <p>We'd love to see your photos from our special day! Please share them with us after the wedding.</p>
-            <p>Use hashtag: <strong>#AndreaWedding2025</strong> on social media</p>
+            <h3>📸 Condivisione Foto</h3>
+            <p>Ci piacerebbe vedere le vostre foto del nostro giorno speciale! Vi preghiamo di condividerle con noi dopo il matrimonio.</p>
+            <p>Usate l'hashtag: <strong>#AndreaSilviaMatrimonio2025</strong> sui social media</p>
           </div>
 
           <div class="note-item">
-            <h3>🏨 Accommodation</h3>
-            <p>For out-of-town guests, we've compiled a list of recommended hotels on our <router-link to="/venue">Venue page</router-link>.</p>
-            <p>Please book early as availability may be limited during wedding season.</p>
+            <h3>🏨 Alloggio</h3>
+            <p>Per gli ospiti fuori città, abbiamo compilato una lista di hotel raccomandati nella nostra <router-link to="/venue">pagina Location</router-link>.</p>
+            <p>Vi preghiamo di prenotare presto poiché la disponibilità potrebbe essere limitata durante la stagione dei matrimoni.</p>
           </div>
 
           <div class="note-item">
-            <h3>💝 Thank You</h3>
-            <p>Your presence at our wedding is the greatest gift we could ask for. Thank you for being part of our love story!</p>
+            <h3>💝 Grazie</h3>
+            <p>La vostra presenza al nostro matrimonio è il regalo più grande che potremmo chiedere. Grazie per essere parte della nostra storia d'amore!</p>
           </div>
         </div>
       </section>
@@ -160,11 +160,12 @@
 <style scoped>
 .details {
   padding: 2rem 0;
+  width: 100%;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0 1rem;
 }
 
