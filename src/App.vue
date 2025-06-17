@@ -39,33 +39,16 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .header {
-  background-image: url('/header-image.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 2rem 0;
   text-align: center;
-  position: relative;
-}
-
-.header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 1;
 }
 
 .container {
   max-width: 100%;
   margin: 0;
   padding: 0 1rem;
-  position: relative;
-  z-index: 2;
 }
 
 .title {
