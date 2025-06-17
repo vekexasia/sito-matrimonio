@@ -21,9 +21,14 @@ const handleImageError = (event: Event) => {
               <h3>Indirizzo:</h3>
               <p>
                 Villa Braida<br>
-                Via Terraglio, 10<br>
+                Via Bonisiolo, 16b<br>
                 31021 Mogliano Veneto TV<br>
                 Italia
+              </p>
+              <h3>Contatti:</h3>
+              <p>
+                <strong>Email:</strong> info@villabraida.it<br>
+                <strong>Tel:</strong> +39 041 457 222
               </p>
             </div>
             
@@ -86,19 +91,10 @@ const handleImageError = (event: Event) => {
           <h2>Suggerimenti per l'Alloggio</h2>
           <div class="hotels-grid">
             <div class="hotel-card">
-              <h3>Hotel Villa Condulmer</h3>
-              <p>Hotel di lusso in una villa storica, a 10 minuti dalla location</p>
-              <p><strong>Distanza:</strong> 5 km da Villa Braida</p>
-            </div>
-            <div class="hotel-card">
-              <h3>Hotel Villa Pace Park</h3>
-              <p>Hotel moderno con servizi spa</p>
-              <p><strong>Distanza:</strong> 8 km da Villa Braida</p>
-            </div>
-            <div class="hotel-card">
-              <h3>Hotel a Venezia</h3>
-              <p>Soggiornate a Venezia e godetevi la città prima/dopo il matrimonio</p>
-              <p><strong>Distanza:</strong> 20-25 minuti in auto/treno</p>
+              <h3>Move Hotels Venezia Nord</h3>
+              <p>Hotel moderno e confortevole, perfetto per gli ospiti del matrimonio</p>
+              <p><strong>Posizione:</strong> Strategicamente posizionato per raggiungere facilmente Villa Braida</p>
+              <p><strong>Servizi:</strong> Camere moderne, colazione inclusa, parcheggio disponibile</p>
             </div>
           </div>
         </div>

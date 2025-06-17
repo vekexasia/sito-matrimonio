@@ -45,7 +45,7 @@
 
               <div class="payment-method">
                 <h3>PayPal</h3>
-                <p>Inviare a: <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
+                <p>Inviare a: <a href="mailto:andrea@baccega.io">andrea@baccega.io</a></p>
                 <p>Vi preghiamo di includere "Regalo Matrimonio" nel messaggio</p>
               </div>
 

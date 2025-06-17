@@ -39,7 +39,10 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('/header-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   padding: 2rem 0;
   text-align: center;
@@ -78,6 +81,7 @@ import { RouterLink, RouterView } from 'vue-router'
   border-radius: 25px;
   transition: all 0.3s ease;
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .nav-link:hover,
@@ -114,7 +118,7 @@ import { RouterLink, RouterView } from 'vue-router'
   
   .nav-link {
     padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 </style>
