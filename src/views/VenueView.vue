@@ -95,6 +95,7 @@ const handleImageError = (event: Event) => {
               <p>Hotel moderno e confortevole, perfetto per gli ospiti del matrimonio</p>
               <p><strong>Posizione:</strong> Strategicamente posizionato per raggiungere facilmente Villa Braida</p>
               <p><strong>Servizi:</strong> Camere moderne, colazione inclusa, parcheggio disponibile</p>
+              <p><strong>Sito web:</strong> <a href="https://www.movehotels.com/it" target="_blank" rel="noopener noreferrer">www.movehotels.com/it</a></p>
             </div>
           </div>
         </div>
