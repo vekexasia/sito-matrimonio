@@ -28,23 +28,23 @@ const copyHashtag = async () => {
               <p>Vi preghiamo di arrivare a Villa Braida. Drink di benvenuto saranno serviti in giardino.</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="time">16:30</div>
             <div class="event">
               <h3>Cerimonia Matrimoniale</h3>
-              <p>La cerimonia si svolgerà nel bellissimo padiglione del giardino della villa.</p>
+              <p>La cerimonia si svolgerà nel bellissimo parco della villa.</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="time">17:30</div>
             <div class="event">
               <h3>Aperitivo</h3>
-              <p>Celebrate con noi! Aperitivo e stuzzichini saranno serviti sulla terrazza.</p>
+              <p>Celebrate con noi! Aperitivo e stuzzichini saranno serviti nel parco della villa.</p>
             </div>
           </div>
-          
+
           <div class="timeline-item">
             <div class="time">19:00</div>
             <div class="event">
@@ -52,23 +52,23 @@ const copyHashtag = async () => {
               <p>La cena sarà servita nell'elegante sala da pranzo della villa.</p>
             </div>
           </div>
-          
-          <div class="timeline-item">
-            <div class="time">21:00</div>
-            <div class="event">
-              <h3>Balli e Festeggiamenti</h3>
-              <p>Balliamo tutta la notte! La festa continua fino a tardi.</p>
-            </div>
-          </div>
-          
+
           <div class="timeline-item">
             <div class="time">21:30</div>
             <div class="event">
-              <h3>Taglio Torta</h3>
-              <p>Il momento più dolce della serata! Taglio della torta nuziale.</p>
+              <h3>Taglio della Torta</h3>
+              <p>Il momento più dolce della serata! Taglio della torta nuziale e buffet dei dolci.</p>
             </div>
           </div>
-          
+
+          <div class="timeline-item">
+            <div class="time">22:00</div>
+            <div class="event">
+              <h3>Balli e Festeggiamenti</h3>
+              <p>Balliamo e beviamo finch&egrave; reggiamo con l'open-bar.</p>
+            </div>
+          </div>
+
           <div class="timeline-item">
             <div class="time">00:00</div>
             <div class="event">
@@ -82,13 +82,6 @@ const copyHashtag = async () => {
       <section class="important-info">
         <h2>Informazioni Importanti</h2>
         <div class="info-grid">
-          <div class="info-card">
-            <h3>👗 Dress Code</h3>
-            <p><strong>Abbigliamento Elegante/Cocktail</strong></p>
-            <p>Suggeriamo abbigliamento elegante. Signore: abiti da cocktail o abbigliamento formale. Signori: completi o camicie eleganti con pantaloni formali.</p>
-            <p><em>Vi preghiamo di evitare colori bianchi, avorio o panna (riservati alla sposa).</em></p>
-          </div>
-
           <div class="info-card">
             <h3>🌤️ Tempo e Stagione</h3>
             <p>Il matrimonio si terrà in <strong>Settembre</strong>. Temperatura prevista: <strong>18-25°C</strong></p>
@@ -110,13 +103,11 @@ const copyHashtag = async () => {
           <div class="info-card">
             <h3>🚗 Parcheggio</h3>
             <p>Parcheggio gratuito disponibile presso Villa Braida.</p>
-            <p>Se alloggiate nelle vicinanze, considerate di camminare o prendere un taxi per godervi appieno la serata!</p>
           </div>
 
           <div class="info-card">
             <h3>🎁 Tavolo Regali</h3>
-            <p>Ci sarà un tavolo dedicato ai regali all'ingresso del ricevimento.</p>
-            <p>Biglietti e piccoli regali possono essere posizionati lì. Per articoli più grandi, consultate la nostra <router-link to="/gifts">pagina Lista Regali</router-link>.</p>
+            <p>Ci sarà un tavolo dedicato ai regali.</p>
           </div>
         </div>
       </section>
@@ -132,7 +123,7 @@ const copyHashtag = async () => {
 
           <div class="contact-card">
             <h3>Villa Braida</h3>
-            <p><strong>Indirizzo:</strong> Via Bonisiolo, 16b, 31021 Mogliano Veneto TV</p>
+            <p><strong>Indirizzo:</strong> Via Bonisiolo, 16b, 31021<br/>Mogliano Veneto TV</p>
             <p><strong>Telefono:</strong> +39 041 457 222</p>
           </div>
         </div>
@@ -141,27 +132,22 @@ const copyHashtag = async () => {
       <section class="special-notes">
         <h2>Note Speciali</h2>
         <div class="notes-container">
-          <div class="note-item">
-            <h3>🎵 Richieste Musicali</h3>
-            <p>Avete una canzone che vi fa sempre pensare a noi? Fatecelo sapere! Ci piacerebbe includere musica significativa nella nostra celebrazione.</p>
-          </div>
 
           <div class="note-item">
             <h3>📸 Condivisione Foto</h3>
             <p>Ci piacerebbe vedere le vostre foto del nostro giorno speciale! Vi preghiamo di condividerle con noi dopo il matrimonio.</p>
-            <p>Usate l'hashtag: <strong>#AndreaSilviaMatrimonio2025</strong> <button @click="copyHashtag" class="copy-btn">📋 Copia</button> sui social media</p>
+            <p>Usate l'hashtag: <br/><strong style="font-weight: bold">#AndreaSilviaMatrimonio2025</strong> <button @click="copyHashtag" class="copy-btn">📋</button> sui social media</p>
           </div>
 
           <div class="note-item">
             <h3>🏨 Alloggio</h3>
-            <p>Per gli ospiti fuori città, abbiamo compilato una lista di hotel raccomandati nella nostra <router-link to="/venue">pagina Location</router-link>.</p>
+            <p>Per gli ospiti fuori città, abbiamo selezionato un hotel in zona nella nostra <router-link to="/venue">pagina Location</router-link>.</p>
             <p>Vi preghiamo di prenotare presto poiché la disponibilità potrebbe essere limitata durante la stagione dei matrimoni.</p>
           </div>
 
           <div class="note-item">
             <h3>🎪 Intrattenimento per Bambini</h3>
-            <p>Abbiamo organizzato un mago e servizi di babysitting per i più piccoli durante il ricevimento.</p>
-            <p>Attività su misura per bambini saranno disponibili per garantire che anche i nostri ospiti più giovani si divertano!</p>
+            <p>Attività con animatori per bambini saranno disponibili per garantire che anche i nostri ospiti più giovani si divertano!</p>
           </div>
 
           <div class="note-item">
@@ -429,16 +415,16 @@ const copyHashtag = async () => {
   .details-header h1 {
     font-size: 2rem;
   }
-  
+
   .timeline-container::before {
     left: 30px;
   }
-  
+
   .timeline-item {
     flex-direction: row !important;
     margin-left: 60px;
   }
-  
+
   .time {
     position: absolute;
     left: -60px;
@@ -446,19 +432,19 @@ const copyHashtag = async () => {
     width: 80px;
     font-size: 0.8rem;
   }
-  
+
   .event {
     max-width: none;
   }
-  
+
   .info-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .notes-container {
     grid-template-columns: 1fr;
   }

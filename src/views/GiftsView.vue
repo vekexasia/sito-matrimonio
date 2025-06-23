@@ -28,12 +28,12 @@
           <div class="gift-card">
             <h2>💰 Regali in Denaro</h2>
             <p>Se preferite fare un regalo in denaro, ne saremmo incredibilmente grati. Potete contribuire tramite:</p>
-            
+
             <div class="payment-methods">
               <div class="payment-method">
                 <h3>Bonifico Bancario (Preferito)</h3>
                 <div class="bank-details">
-                  <p><strong>Intestatario:</strong> Andrea Baccega</p>
+                  <p><strong>Intestatario:</strong> Andrea Baccega Silvia Bevilacqua</p>
                   <p><strong>IBAN:</strong> [IBAN da fornire]</p>
                   <p><strong>BIC/SWIFT:</strong> [BIC da fornire]</p>
                   <p><strong>Banca:</strong> [Nome banca da fornire]</p>
@@ -54,31 +54,6 @@
             </div>
           </div>
 
-          <div class="gift-card">
-            <h2>🌍 Fondo Luna di Miele</h2>
-            <p>Aiutateci a creare ricordi indimenticabili durante la nostra luna di miele!</p>
-            <div class="honeymoon-options">
-              <div class="honeymoon-item">
-                <h4>Cena Romantica per Due</h4>
-                <p>€100 - Aiutateci a goderci una cena speciale durante la luna di miele</p>
-              </div>
-              <div class="honeymoon-item">
-                <h4>Escursione Avventurosa</h4>
-                <p>€200 - Finanziate una gita di un giorno o un'attività</p>
-              </div>
-              <div class="honeymoon-item">
-                <h4>Giornata Spa</h4>
-                <p>€150 - Aiutateci a rilassarci e distenderci</p>
-              </div>
-              <div class="honeymoon-item">
-                <h4>Upgrade Volo</h4>
-                <p>€300 - Rendete il nostro viaggio più confortevole</p>
-              </div>
-            </div>
-            <p class="honeymoon-note">
-              Utilizzate gli stessi metodi di pagamento sopra indicati e specificate "Fondo Luna di Miele" nella causale.
-            </p>
-          </div>
 
 
         </div>
@@ -87,11 +62,7 @@
 
 
       <section class="thank-you">
-        <h2>Grazie</h2>
-        <p>
-          Il vostro amore, supporto e presenza significano tutto per noi. Che scegliate di fare un regalo o semplicemente 
-          di celebrare con noi, siamo grati di avervi nelle nostre vite. Grazie per essere parte del nostro giorno speciale!
-        </p>
+        <p style="font-size: 1.3em">Grazie per essere parte del nostro giorno speciale! </p>
       </section>
     </div>
   </div>
@@ -323,19 +294,19 @@
   .gifts-header h1 {
     font-size: 2rem;
   }
-  
+
   .gift-cards {
     grid-template-columns: 1fr;
   }
-  
+
   .gift-card {
     padding: 1.5rem;
   }
-  
+
   .honeymoon-options {
     grid-template-columns: 1fr;
   }
-  
+
   .delivery-info {
     grid-template-columns: 1fr;
   }

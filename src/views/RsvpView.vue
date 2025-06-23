@@ -11,22 +11,20 @@
 
       <section class="rsvp-form">
         <div class="form-container">
-          <h2>Rispondete entro il 15 Settembre 2025</h2>
-          
           <div class="google-form-embed">
             <p class="form-note">
-              Vi preghiamo di compilare il modulo RSVP qui sotto. Se il modulo non si carica, potete 
-              <a href="https://forms.google.com/[YOUR_FORM_ID]" target="_blank" rel="noopener">
+              Vi preghiamo di compilare il modulo RSVP qui sotto. Se il modulo non si carica, potete
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiM21d1L0nU4M8Ew06NmGhVgdaRvxA7ZnCxBcqWkwxO7Z4hw/viewform?usp=dialog" target="_blank" rel="noopener">
                 cliccare qui per aprirlo in una nuova finestra
               </a>.
             </p>
-            
-            <iframe 
-              src="https://docs.google.com/forms/d/e/[YOUR_FORM_ID]/viewform?embedded=true" 
-              width="100%" 
-              height="800" 
-              frameborder="0" 
-              marginheight="0" 
+
+            <iframe
+              src="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfiM21d1L0nU4M8Ew06NmGhVgdaRvxA7ZnCxBcqWkwxO7Z4hw/formResponse"
+              width="100%"
+              height="1000"
+              frameborder="0"
+              marginheight="0"
               marginwidth="0"
               title="Modulo RSVP Matrimonio">
               Caricamento…
@@ -149,11 +147,11 @@ iframe {
   .rsvp-header h1 {
     font-size: 2rem;
   }
-  
+
   .form-container {
     padding: 1rem;
   }
-  
+
   iframe {
     height: 700px;
   }

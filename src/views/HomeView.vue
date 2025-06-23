@@ -6,6 +6,7 @@
     <section class="hero">
       <div class="hero-content">
         <h1 class="hero-title">Andrea & Silvia</h1>
+        <p class="hero-date">Ci Sposiamo!</p>
         <p class="hero-date">20 Settembre 2025</p>
         <p class="hero-location">Villa Braida, Mogliano Veneto</p>
       </div>
@@ -13,10 +14,10 @@
 
     <section class="story">
       <div class="container">
-        <h2>La Nostra Storia</h2>
+        <h2>Il Matrimonio</h2>
         <p>
-          Siamo entusiasti di celebrare il nostro giorno speciale con voi! Unitevi a noi mentre iniziamo questo 
-          bellissimo viaggio insieme nella splendida Villa Braida a Mogliano Veneto. La vostra presenza renderà 
+          Siamo entusiasti di celebrare il nostro giorno speciale con voi! Unitevi a noi mentre iniziamo questo
+          bellissimo viaggio insieme nella splendida Villa Braida a Mogliano Veneto. La vostra presenza renderà
           il nostro giorno ancora più significativo.
         </p>
       </div>
@@ -58,9 +59,9 @@
 .hero {
   background-image: url('/new-header-image.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +90,7 @@
 
 .hero-title {
   font-size: 4rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.2rem 0;
   font-weight: 300;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
@@ -194,28 +195,28 @@
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-date {
     font-size: 1.2rem;
   }
-  
+
   .hero-location {
     font-size: 1rem;
   }
-  
+
   .story h2, .quick-links h2 {
     font-size: 2rem;
   }
-  
+
   .story p {
     font-size: 1.1rem;
   }
-  
+
   .links-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .link-card {
     padding: 1.5rem;
   }

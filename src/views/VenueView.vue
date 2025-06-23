@@ -31,17 +31,17 @@ const handleImageError = (event: Event) => {
                 <strong>Tel:</strong> +39 041 457 222
               </p>
             </div>
-            
+
             <div class="venue-image">
-              <img src="/villa-braida-real.jpg" 
-                   alt="Villa Braida - Elegant wedding venue with beautiful gardens and architecture" 
+              <img src="/villa-braida.jpg"
+                   alt="Villa Braida - Elegant wedding venue with beautiful gardens and architecture"
                    @error="handleImageError" />
             </div>
           </div>
 
           <div class="directions-card">
             <h2>Come Arrivare</h2>
-            
+
             <div class="transport-options">
               <div class="transport-option">
                 <h3>🚗 In Auto</h3>
@@ -69,19 +69,19 @@ const handleImageError = (event: Event) => {
         <div class="map-section">
           <h2>Mappa della Location</h2>
           <div class="map-container">
-            <iframe 
+            <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.8!2d12.2167!3d45.5667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDM0JzAwLjEiTiAxMsKwMTMnMDAuMSJF!5e0!3m2!1sen!2sit!4v1234567890"
-              width="100%" 
-              height="400" 
-              style="border:0;" 
-              allowfullscreen 
-              loading="lazy" 
+              width="100%"
+              height="400"
+              style="border:0;"
+              allowfullscreen
+              loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               title="Mappa Villa Braida">
             </iframe>
           </div>
           <p class="map-note">
-            <a href="https://goo.gl/maps/[ACTUAL_MAPS_LINK]" target="_blank" rel="noopener">
+            <a href="https://maps.app.goo.gl/WKNNCEVbt7yKiBbr5" target="_blank" rel="noopener">
               Apri in Google Maps
             </a>
           </p>
@@ -149,7 +149,7 @@ const handleImageError = (event: Event) => {
 }
 
 .venue-card h2, .directions-card h2 {
-  color: #667eea;
+  color: var(--color-blu);
   margin: 0 0 1.5rem 0;
   font-size: 1.8rem;
 }
@@ -248,7 +248,7 @@ const handleImageError = (event: Event) => {
 }
 
 .hotel-card h3 {
-  color: #667eea;
+  color: var(--color-blu);
   margin: 0 0 1rem 0;
 }
 
@@ -262,15 +262,15 @@ const handleImageError = (event: Event) => {
   .venue-header h1 {
     font-size: 2rem;
   }
-  
+
   .venue-details {
     grid-template-columns: 1fr;
   }
-  
+
   .venue-card, .directions-card {
     padding: 1.5rem;
   }
-  
+
   .hotels-grid {
     grid-template-columns: 1fr;
   }

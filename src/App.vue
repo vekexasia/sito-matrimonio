@@ -6,9 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="app">
     <header class="header">
       <div class="container">
-        <h1 class="title">Andrea & Silvia</h1>
-        <p class="subtitle">Ci Sposiamo!</p>
-        
+
         <nav class="nav">
           <RouterLink to="/" class="nav-link">Home</RouterLink>
           <RouterLink to="/rsvp" class="nav-link">RSVP</RouterLink>
@@ -39,9 +37,9 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--color-blu);
   color: white;
-  padding: 2rem 0;
+  padding: 0.7rem 0;
   text-align: center;
 }
 
@@ -108,11 +106,11 @@ import { RouterLink, RouterView } from 'vue-router'
   .title {
     font-size: 2rem;
   }
-  
+
   .nav {
     gap: 1rem;
   }
-  
+
   .nav-link {
     padding: 0.4rem 0.8rem;
     font-size: 1rem;
