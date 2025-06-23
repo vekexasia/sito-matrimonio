@@ -1,4 +1,13 @@
 <script setup lang="ts">
+const copyHashtag = async () => {
+  try {
+    await navigator.clipboard.writeText('#AndreaSilviaMatrimonio2025');
+    alert('Hashtag copiato negli appunti!');
+  } catch (err) {
+    console.error('Failed to copy hashtag:', err);
+    alert('Errore nel copiare l\'hashtag');
+  }
+};
 </script>
 
 <template>
@@ -13,7 +22,7 @@
         <h2>Programma del Giorno</h2>
         <div class="timeline-container">
           <div class="timeline-item">
-            <div class="time">14:00</div>
+            <div class="time">16:00</div>
             <div class="event">
               <h3>Arrivo Ospiti</h3>
               <p>Vi preghiamo di arrivare a Villa Braida. Drink di benvenuto saranno serviti in giardino.</p>
@@ -21,7 +30,7 @@
           </div>
           
           <div class="timeline-item">
-            <div class="time">14:30</div>
+            <div class="time">16:30</div>
             <div class="event">
               <h3>Cerimonia Matrimoniale</h3>
               <p>La cerimonia si svolgerà nel bellissimo padiglione del giardino della villa.</p>
@@ -29,7 +38,7 @@
           </div>
           
           <div class="timeline-item">
-            <div class="time">15:30</div>
+            <div class="time">17:30</div>
             <div class="event">
               <h3>Aperitivo</h3>
               <p>Celebrate con noi! Aperitivo e stuzzichini saranno serviti sulla terrazza.</p>
@@ -37,7 +46,7 @@
           </div>
           
           <div class="timeline-item">
-            <div class="time">17:00</div>
+            <div class="time">19:00</div>
             <div class="event">
               <h3>Ricevimento</h3>
               <p>La cena sarà servita nell'elegante sala da pranzo della villa.</p>
@@ -49,6 +58,14 @@
             <div class="event">
               <h3>Balli e Festeggiamenti</h3>
               <p>Balliamo tutta la notte! La festa continua fino a tardi.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="time">21:30</div>
+            <div class="event">
+              <h3>Taglio Torta</h3>
+              <p>Il momento più dolce della serata! Taglio della torta nuziale.</p>
             </div>
           </div>
           
@@ -79,8 +96,8 @@
           </div>
 
           <div class="info-card">
-            <h3>📱 Cerimonia Senza Dispositivi</h3>
-            <p>Vi chiediamo gentilmente di tenere telefoni e fotocamere lontani durante la cerimonia.</p>
+            <h3>📱 Dispositivi Durante la Cerimonia</h3>
+            <p>Siete liberi di scattare foto durante la cerimonia, ma vi chiediamo gentilmente di evitare giochi o altre attività sui telefoni.</p>
             <p>Il nostro fotografo professionale catturerà ogni momento. Vi preghiamo di essere presenti e godervi l'esperienza con noi!</p>
           </div>
 
@@ -109,20 +126,14 @@
         <div class="contact-grid">
           <div class="contact-card">
             <h3>Sposi</h3>
-            <p><strong>Andrea:</strong> <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
-            <p><strong>Telefono:</strong> [Numero di telefono da fornire]</p>
-          </div>
-
-          <div class="contact-card">
-            <h3>Emergenze Giorno del Matrimonio</h3>
-            <p><strong>Coordinatore Matrimonio:</strong> [Nome da fornire]</p>
-            <p><strong>Telefono:</strong> [Contatto di emergenza da fornire]</p>
+            <p><strong>Andrea:</strong> 3314646641</p>
+            <p><strong>Silvia:</strong> 3403214938</p>
           </div>
 
           <div class="contact-card">
             <h3>Villa Braida</h3>
-            <p><strong>Indirizzo:</strong> Via Terraglio, 10, 31021 Mogliano Veneto TV</p>
-            <p><strong>Telefono:</strong> [Contatto location da fornire]</p>
+            <p><strong>Indirizzo:</strong> Via Bonisiolo, 16b, 31021 Mogliano Veneto TV</p>
+            <p><strong>Telefono:</strong> +39 041 457 222</p>
           </div>
         </div>
       </section>
@@ -138,13 +149,19 @@
           <div class="note-item">
             <h3>📸 Condivisione Foto</h3>
             <p>Ci piacerebbe vedere le vostre foto del nostro giorno speciale! Vi preghiamo di condividerle con noi dopo il matrimonio.</p>
-            <p>Usate l'hashtag: <strong>#AndreaSilviaMatrimonio2025</strong> sui social media</p>
+            <p>Usate l'hashtag: <strong>#AndreaSilviaMatrimonio2025</strong> <button @click="copyHashtag" class="copy-btn">📋 Copia</button> sui social media</p>
           </div>
 
           <div class="note-item">
             <h3>🏨 Alloggio</h3>
             <p>Per gli ospiti fuori città, abbiamo compilato una lista di hotel raccomandati nella nostra <router-link to="/venue">pagina Location</router-link>.</p>
             <p>Vi preghiamo di prenotare presto poiché la disponibilità potrebbe essere limitata durante la stagione dei matrimoni.</p>
+          </div>
+
+          <div class="note-item">
+            <h3>🎪 Intrattenimento per Bambini</h3>
+            <p>Abbiamo organizzato un mago e servizi di babysitting per i più piccoli durante il ricevimento.</p>
+            <p>Attività su misura per bambini saranno disponibili per garantire che anche i nostri ospiti più giovani si divertano!</p>
           </div>
 
           <div class="note-item">
@@ -164,8 +181,8 @@
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
@@ -390,6 +407,22 @@
 
 .note-item a:hover {
   text-decoration: underline;
+}
+
+.copy-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.copy-btn:hover {
+  background: #5a6fd8;
 }
 
 @media (max-width: 768px) {

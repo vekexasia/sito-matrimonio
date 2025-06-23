@@ -21,15 +21,20 @@ const handleImageError = (event: Event) => {
               <h3>Indirizzo:</h3>
               <p>
                 Villa Braida<br>
-                Via Terraglio, 10<br>
+                Via Bonisiolo, 16b<br>
                 31021 Mogliano Veneto TV<br>
                 Italia
+              </p>
+              <h3>Contatti:</h3>
+              <p>
+                <strong>Email:</strong> info@villabraida.it<br>
+                <strong>Tel:</strong> +39 041 457 222
               </p>
             </div>
             
             <div class="venue-image">
-              <img src="https://images.unsplash.com/photo-1519167758481-83f29c8e8d4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2098&q=80" 
-                   alt="Elegant villa with beautiful gardens and architecture" 
+              <img src="/villa-braida-real.jpg" 
+                   alt="Villa Braida - Elegant wedding venue with beautiful gardens and architecture" 
                    @error="handleImageError" />
             </div>
           </div>
@@ -86,19 +91,11 @@ const handleImageError = (event: Event) => {
           <h2>Suggerimenti per l'Alloggio</h2>
           <div class="hotels-grid">
             <div class="hotel-card">
-              <h3>Hotel Villa Condulmer</h3>
-              <p>Hotel di lusso in una villa storica, a 10 minuti dalla location</p>
-              <p><strong>Distanza:</strong> 5 km da Villa Braida</p>
-            </div>
-            <div class="hotel-card">
-              <h3>Hotel Villa Pace Park</h3>
-              <p>Hotel moderno con servizi spa</p>
-              <p><strong>Distanza:</strong> 8 km da Villa Braida</p>
-            </div>
-            <div class="hotel-card">
-              <h3>Hotel a Venezia</h3>
-              <p>Soggiornate a Venezia e godetevi la città prima/dopo il matrimonio</p>
-              <p><strong>Distanza:</strong> 20-25 minuti in auto/treno</p>
+              <h3>Move Hotels Venezia Nord</h3>
+              <p>Hotel moderno e confortevole, perfetto per gli ospiti del matrimonio</p>
+              <p><strong>Posizione:</strong> Strategicamente posizionato per raggiungere facilmente Villa Braida</p>
+              <p><strong>Servizi:</strong> Camere moderne, colazione inclusa, parcheggio disponibile</p>
+              <p><strong>Sito web:</strong> <a href="https://www.movehotels.com/it" target="_blank" rel="noopener noreferrer">www.movehotels.com/it</a></p>
             </div>
           </div>
         </div>
@@ -114,8 +111,8 @@ const handleImageError = (event: Event) => {
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 

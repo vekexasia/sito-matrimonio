@@ -78,6 +78,7 @@ import { RouterLink, RouterView } from 'vue-router'
   border-radius: 25px;
   transition: all 0.3s ease;
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .nav-link:hover,
@@ -114,7 +115,7 @@ import { RouterLink, RouterView } from 'vue-router'
   
   .nav-link {
     padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 </style>

@@ -37,8 +37,8 @@
             <h3>Domande?</h3>
             <p>Se avete domande o dovete modificare la vostra risposta RSVP, contattateci:</p>
             <p>
-              <strong>Email:</strong> 
-              <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a>
+              <strong>Andrea:</strong> 3314646641<br>
+              <strong>Silvia:</strong> 3403214938
             </p>
           </div>
         </div>
@@ -54,8 +54,8 @@
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 

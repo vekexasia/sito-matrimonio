@@ -56,7 +56,7 @@
 }
 
 .hero {
-  background-image: url('/header-image.jpg');
+  background-image: url('/new-header-image.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 1rem;
 }

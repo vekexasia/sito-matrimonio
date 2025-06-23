@@ -12,15 +12,13 @@
       <section class="gift-options">
         <div class="gift-cards">
           <div class="gift-card">
-            <h2>💝 Registro Matrimonio</h2>
+            <h2>💝 Lista Nozze</h2>
             <p>Abbiamo creato un registro con articoli che ci aiuteranno a costruire la nostra casa insieme.</p>
             <div class="registry-links">
               <a href="#" class="registry-link" target="_blank" rel="noopener">
                 Visualizza il nostro Registro Amazon
               </a>
-              <a href="#" class="registry-link" target="_blank" rel="noopener">
-                Visualizza il nostro Registro John Lewis
-              </a>
+
             </div>
             <p class="note">
               <em>Nota: I link del registro saranno aggiornati più vicino alla data del matrimonio</em>
@@ -45,7 +43,7 @@
 
               <div class="payment-method">
                 <h3>PayPal</h3>
-                <p>Inviare a: <a href="mailto:vekexasia@gmail.com">vekexasia@gmail.com</a></p>
+                <p>Inviare a: <a href="mailto:andrea@baccega.io?subject=Regalo%20Matrimonio&body=Ciao%20Andrea%20e%20Silvia%2C%0A%0AInvio%20un%20regalo%20per%20il%20vostro%20matrimonio.%0A%0ACordiali%20saluti">andrea@baccega.io</a></p>
                 <p>Vi preghiamo di includere "Regalo Matrimonio" nel messaggio</p>
               </div>
 
@@ -82,38 +80,11 @@
             </p>
           </div>
 
-          <div class="gift-card">
-            <h2>💌 Tocco Personale</h2>
-            <p>I regali più significativi vengono dal cuore:</p>
-            <ul class="personal-gifts">
-              <li>Lettere scritte a mano o biglietti con i vostri ricordi preferiti di noi</li>
-              <li>Album fotografici o scrapbook</li>
-              <li>Ricette di famiglia o consigli di cucina</li>
-              <li>Libri che hanno un significato speciale per voi</li>
-              <li>Oggetti fatti in casa o artigianato</li>
-            </ul>
-          </div>
+
         </div>
       </section>
 
-      <section class="gift-delivery">
-        <h2>Informazioni Consegna Regali</h2>
-        <div class="delivery-info">
-          <div class="delivery-option">
-            <h3>Indirizzo di Spedizione</h3>
-            <p>
-              Andrea Baccega<br>
-              [Indirizzo da fornire]<br>
-              [Città, Codice Postale]<br>
-              Italia
-            </p>
-          </div>
-          <div class="delivery-option">
-            <h3>Giorno del Matrimonio</h3>
-            <p>I regali possono anche essere portati alla location del matrimonio. Ci sarà un tavolo dedicato ai regali al ricevimento.</p>
-          </div>
-        </div>
-      </section>
+
 
       <section class="thank-you">
         <h2>Grazie</h2>
@@ -133,8 +104,8 @@
 }
 
 .container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
